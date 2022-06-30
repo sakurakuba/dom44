@@ -6,7 +6,8 @@
 </head>
 <body>
 <h1>Bulls and Cows</h1>
-<p>Guess 4 numbers. Enter them separated with spaces:</p>
+<p>Guess 4 numbers.</p>
+<p>Please enter numbers between 1 and 9 and separate them with spaces:</p>
         {% if not flag %}
         <form method="post" action="nums/">
             {% csrf_token %}

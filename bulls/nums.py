@@ -33,6 +33,6 @@ def validate_num(origin_arr, arr2):
         elif int(arr2[j]) in origin_arr:
             cows += 1
     if bulls == len(origin_arr):
-        return f"Bulls: {bulls}, cows: {cows}. You Win!!"
-    return f"Bulls: {bulls}, cows: {cows}"
+        return f"Bulls: {bulls}, Cows: {cows}. You Win!!"
+    return f"Bulls: {bulls}, Cows: {cows}"
 
